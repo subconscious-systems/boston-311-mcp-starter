@@ -11,8 +11,8 @@ This starter connects you to the [Boston OpenData MCP server](https://data-mcp.b
 **1. Clone and install**
 
 ```bash
-git clone <repo-url>
-cd boston-mcp-hack
+git clone https://github.com/subconscious-systems/boston-311-mcp-starter.git
+cd boston-311-mcp-starter
 npm install
 ```
 
@@ -62,18 +62,8 @@ Open `lib/tools.ts` — you'll see the Boston MCP, web search, and two utility t
 - **311 Case Monitor** — track open cases past their SLA deadline and surface the worst offenders
 - **Neighborhood Report** — generate a plain-English weekly digest for any zip code
 - **Equity Analyzer** — compare response times across neighborhoods to find disparities
-- **Voice-Powered Reporter** — let residents report issues hands-free using [VoiceRun](https://voicerun.com/platform/)
+- **Voice-Powered Reporter** — let residents report issues hands-free
 - **Multi-Agent Pipeline** — build a 311 data agent + a consumer agent that acts on it (calendar blocks, Slack alerts, email digests)
-- **Deploy on NEST** — register your agent on [NANDA NEST](https://nest.projectnanda.org) so other agents can discover and call it
-
-### Partner tools
-
-| Partner | What they do | Link |
-|---------|-------------|------|
-| Subconscious | Agent reasoning + tool calling | [subconscious.dev](https://subconscious.dev) |
-| NANDA / NEST | Agent discovery + A2A protocol | [nest.projectnanda.org](https://nest.projectnanda.org) |
-| VoiceRun | Voice agent platform | [voicerun.com](https://voicerun.com/platform/) |
-| Maritime | Agent deployment | [maritime.sh](https://maritime.sh) |
 
 ---
 
